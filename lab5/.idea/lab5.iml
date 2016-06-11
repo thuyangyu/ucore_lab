@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/user/faultreadkernel.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/user/softint.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/user/libs/panic.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/user/libs/ulib.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/user/libs/syscall.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/user/libs/initcode.S" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/user/libs/umain.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/user/libs/stdio.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/user/libs/ulib.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/user/libs/syscall.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/user/forktree.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/user/faultread.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/user/yield.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/user/testbss.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/user/hello.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/user/exit.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/user/forktest.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/user/divzero.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/user/waitkill.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/user/pgdir.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/user/badsegment.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/user/spin.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/user/badarg.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tools/boot.ld" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tools/vector.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tools/grade.sh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tools/sign.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tools/user.ld" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tools/gdbinit" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tools/kernel.ld" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tools/function.mk" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Makefile" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/stdlib.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/unistd.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/elf.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/defs.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/list.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/error.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/printfmt.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/hash.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/string.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/rand.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/x86.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/string.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/atomic.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/stdio.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/libs/stdarg.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/boot/bootasm.S" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/boot/asm.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/boot/bootmain.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/syscall/syscall.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/syscall/syscall.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/driver/ide.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/driver/picirq.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/driver/ide.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/driver/clock.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/driver/intr.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/driver/intr.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/driver/clock.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/driver/console.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/driver/kbdreg.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/driver/picirq.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/driver/console.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/init/entry.S" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/init/init.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/trap/vectors.S" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/trap/trap.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/trap/trapentry.S" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/trap/trap.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/libs/stdio.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/libs/readline.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/schedule/sched.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/schedule/sched.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/debug/panic.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/debug/kdebug.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/debug/kdebug.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/debug/kmonitor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/debug/stab.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/debug/kmonitor.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/debug/assert.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/fs/fs.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/fs/swapfs.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/fs/swapfs.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/sync/sync.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/mm/pmm.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/mm/swap.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/mm/mmu.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/mm/kmalloc.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/mm/swap_fifo.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/mm/kmalloc.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/mm/memlayout.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/mm/swap_fifo.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/mm/default_pmm.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/mm/vmm.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/mm/default_pmm.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/mm/vmm.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/mm/pmm.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/mm/swap.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/process/proc.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/process/switch.S" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/process/entry.S" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kern/process/proc.c" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Header Search Paths">
+        <CLASSES>
+          <root url="file:///usr/include" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+          <root url="file:///usr/local/include" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file:///usr/include" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+          <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+          <root url="file:///usr/local/include" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
